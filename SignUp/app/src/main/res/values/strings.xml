@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sign up Simulator</string>
+    <string name="usuario">Usuario</string>
+    <string name="content_description_start_icon">Icono de usuario</string>
+    <string name="ayudaUsuario">Por favor, introduzca su nombre de usuario</string>
+    <string name="ayudaPassword">Por favor, introduzca su contraseña</string>
+    <string name="content_description_start_icon2">Icono de password</string>
+    <string name="password">Password</string>
+    <string name="registro">Regístrate</string>
+    <string name="extendedFab">Ver usuarios registrados</string>
+    <string name="content_description_dashboard">Información</string>
+    <string name="info">Información</string>
+    <string name="infoDesarrollador">Aplicación creada por Carlos Ferreiro Barros</string>
+    <string name="linkedin">Linkedin https://www.linkedin.com/in/carlos-ferreiro-barros/</string>
+    <string name="github">Github https://github.com/Charlyiii</string>
+    <string name="telegram">Telegram https://t.me/CharlyiiiGZ</string>
+    <string name="errorPass">La contraseña debe contener como mínimo 7 letras</string>
+    <string name="errorUsuario">El usuario debe contener como mínimo 3 letras</string>
+    <string name="limpiar">Limpiar pantalla</string>
+    <string name="content_description_limpiar">Icono para limpiar la pantalla</string>
+</resources>

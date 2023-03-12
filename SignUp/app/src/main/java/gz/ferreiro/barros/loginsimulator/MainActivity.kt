@@ -3,6 +3,7 @@ package gz.ferreiro.barros.loginsimulator
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.text.util.Linkify
 import android.util.Log
 import android.view.inputmethod.InputMethodManager
@@ -85,11 +86,11 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-        //Quitamos el foco de cualquier input al clicar fuera
-        val rootView = binding.root
+        //Quitamos el foco de cualquier fuera
+        val constraint = binding.constraint
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
 
-        rootView.setOnClickListener {
+        constraint.setOnClickListener {
             imm.hideSoftInputFromWindow(it.windowToken, 0)
             currentFocus?.clearFocus()
         }
@@ -101,7 +102,7 @@ class MainActivity : AppCompatActivity() {
         val linkedin = getString(R.string.linkedin)
         val github = getString(R.string.github)
         val telegram = getString(R.string.telegram)
-        texto.text = "${getString(R.string.infoDesarrollador)}\n\n$linkedin\n$github\n$telegram"
+        texto.text = "${getString(R.string.infoDesarrollador)}\n$linkedin\n$github\n$telegram\n\n\n\n"
         Linkify.addLinks(texto, Linkify.WEB_URLS)
     }
 }

@@ -6,6 +6,8 @@ No se implementa BBDD, pero la simula con un Map. Por supuesto, no alamacena los
 
 Falta extraer parte del código de la clase principal a otras clases controladoras.
 
+Commit 2: se hace scrollable toda la pantalla para que funcione correctamente en horizontal y se mejora el estilo del modo oscuro.
+
 ## Tecnologías:
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=101010)]()
 [![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=101010)]()
